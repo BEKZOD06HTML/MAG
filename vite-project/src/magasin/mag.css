@@ -12,7 +12,6 @@ body {
     color: white;
 }
 
-/* Karta ro'yxati */
 .cards {
     list-style: none;
     display: grid;
@@ -28,7 +27,6 @@ h1 {
     margin-top: 20px;
 }
 
-/* Saralash drop-down */
 select {
     display: block;
     margin: 20px auto;
@@ -42,7 +40,6 @@ select {
     cursor: pointer;
 }
 
-/* Karta dizayni */
 .card {
     border-radius: 15px;
     overflow: hidden;
@@ -67,27 +64,6 @@ select {
     color: white;
 }
 
-/* Loader dizayni */
-.loader-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-}
-
-.loader {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 6px solid #00FFFF;
-    border-top-color: #0074D9;
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    100% { transform: rotate(360deg); }
-}
 
 .btn {
     display: block;
@@ -119,4 +95,25 @@ select {
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 116, 217, 0.5);
     outline: none;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 6px solid #00FFFF;
+    border-top-color: #0074D9;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
 }
